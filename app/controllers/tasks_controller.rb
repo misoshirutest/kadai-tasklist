@@ -53,8 +53,10 @@ before_action :set_task, only: [:show, :edit, :update, :destroy]
 
   # Strong Parameter
   def task_params
-    p params
-    params.require(:task).permit(:status)
+    # p params
+    params.require(:task).permit(:content, :status)
+    # taskを呼び出し、contentとstatusを許可
+    # http://api.rubyonrails.org/classes/ActionController/Parameters.html
   end
 
   
