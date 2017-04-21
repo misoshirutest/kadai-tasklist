@@ -1,0 +1,858 @@
+Script started on Fri 21 Apr 2017 01:30:04 AM UTC
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+
+
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git [K[K[K[Kgit log 
+[?1h=[33mcommit 71e39ddf75a81acf51926cc2885f921f5b5db99c[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Fri Apr 21 00:53:25 2017 +0000[m
+[m
+    kansei[m
+[m
+[33mcommit af07e862f4446eef4d012e1a768d831f68c582ad[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Thu Apr 20 06:57:04 2017 +0000[m
+[m
+:[K[K    init Kadai-TaskList Project[m
+:[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git log --oneline
+[?1h=[33m71e39dd[m kansei[m
+[33maf07e86[m init Kadai-TaskList Project[m
+[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ ls
+17042101.log  Gemfile.lock  Rakefile  [0m[01;34mbin[0m/     config.ru  [01;34mlib[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/
+Gemfile       README.md     [01;34mapp[0m/      [01;34mconfig[0m/  [01;34mdb[0m/        [01;34mlog[0m/  [01;34mtest[0m/    [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ cd ..
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ ls
+170419.log        17042001.log      17042002.log  [0m[01;34mkadai-tasklist[0m/  tatus
+17042001.history  17042002.history  17042003.log  [01;34mmessage-board[0m/   tory
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ cp m[K[K-r [K[K[K -r message-board/ message-board/2/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ cd message-board2
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ ls
+Gemfile  Gemfile.lock  README.md  Rakefile  [0m[01;34mapp[0m/  [01;34mbin[0m/  [01;34mconfig[0m/  config.ru  [01;34mdb[0m/  [01;34mlib[0m/  [01;34mlog[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/  [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git lgo
+git: 'lgo' is not a git command. See 'git --help'.
+
+Did you mean this?
+	log
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git log
+[?1h=[33mcommit 3a336b16fc349e2c9d29ab75751181ffdabbed4d[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Thu Apr 20 05:52:59 2017 +0000[m
+[m
+    8.10 messages#destroy[m
+[m
+[33mcommit 350413833140136088aa46eb72ab6435f6befc71[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Thu Apr 20 05:44:45 2017 +0000[m
+[m
+:[K[K [K::[Kss[K:[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ cd ..
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ ls
+170419.log        17042001.log      17042002.log  [0m[01;34mkadai-tasklist[0m/  [01;34mmessage-board2[0m/  tory
+17042001.history  17042002.history  17042003.log  [01;34mmessage-board[0m/   tatus
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ git init
+Initialized empty Git repository in /home/ubuntu/workspace/09_rails/.git/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ git log
+fatal: your current branch 'master' does not have any commits yet
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ rm -r -f- [K[K ^[K-i .git/
+rm: descend into directory ‘.git/’? 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ ls
+170419.log        17042001.log      17042002.log  [0m[01;34mkadai-tasklist[0m/  [01;34mmessage-board2[0m/  tory
+17042001.history  17042002.history  17042003.log  [01;34mmessage-board[0m/   tatus
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ cd ..
+[01;32mtekek33[00m:[01;34m~/workspace[00m $ cd 09_rails/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ ls
+170419.log        17042001.log      17042002.log  [0m[01;34mkadai-tasklist[0m/  [01;34mmessage-board2[0m/  tory
+17042001.history  17042002.history  17042003.log  [01;34mmessage-board[0m/   tatus
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ ls -a
+[0m[01;34m.[0m/   [01;34m.git[0m/       17042001.history  17042002.history  17042003.log     [01;34mmessage-board[0m/   tatus
+[01;34m..[0m/  170419.log  17042001.log      17042002.log      [01;34mkadai-tasklist[0m/  [01;34mmessage-board2[0m/  tory
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m (master) $ rm -r -i -f .git/[K
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ ls
+170419.log        17042001.log      17042002.log  [0m[01;34mkadai-tasklist[0m/  [01;34mmessage-board2[0m/  tory
+17042001.history  17042002.history  17042003.log  [01;34mmessage-board[0m/   tatus
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ cd kadai-tasklist/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K message-board2
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ ls
+Gemfile  Gemfile.lock  README.md  Rakefile  [0m[01;34mapp[0m/  [01;34mbin[0m/  [01;34mconfig[0m/  config.ru  [01;34mdb[0m/  [01;34mlib[0m/  [01;34mlog[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/  [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git log
+[?1h=[33mcommit 3a336b16fc349e2c9d29ab75751181ffdabbed4d[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Thu Apr 20 05:52:59 2017 +0000[m
+[m
+    8.10 messages#destroy[m
+[m
+[33mcommit 350413833140136088aa46eb72ab6435f6befc71[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Thu Apr 20 05:44:45 2017 +0000[m
+[m
+:[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ rm -r -i -f .git
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m $ ls
+Gemfile  Gemfile.lock  README.md  Rakefile  [0m[01;34mapp[0m/  [01;34mbin[0m/  [01;34mconfig[0m/  config.ru  [01;34mdb[0m/  [01;34mlib[0m/  [01;34mlog[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/  [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m $ gigt [K[K[Kt inni[K[K[K[Kinit
+Initialized empty Git repository in /home/ubuntu/workspace/09_rails/message-board2/.git/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ ls
+Gemfile  Gemfile.lock  README.md  Rakefile  [0m[01;34mapp[0m/  [01;34mbin[0m/  [01;34mconfig[0m/  config.ru  [01;34mdb[0m/  [01;34mlib[0m/  [01;34mlog[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/  [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git add .
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git commit -m "firstcommit"
+[master (root-commit) a04e59e] firstcommit
+ 75 files changed, 1320 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.md
+ create mode 100644 Rakefile
+ create mode 100644 app/assets/config/manifest.js
+ create mode 100644 app/assets/images/.keep
+ create mode 100644 app/assets/javascripts/application.js
+ create mode 100644 app/assets/javascripts/cable.js
+ create mode 100644 app/assets/javascripts/channels/.keep
+ create mode 100644 app/assets/stylesheets/application.css
+ create mode 100644 app/channels/application_cable/channel.rb
+ create mode 100644 app/channels/application_cable/connection.rb
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/concerns/.keep
+ create mode 100644 app/controllers/messages_controller.rb
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/jobs/application_job.rb
+ create mode 100644 app/mailers/application_mailer.rb
+ create mode 100644 app/models/application_record.rb
+ create mode 100644 app/models/concerns/.keep
+ create mode 100644 app/models/message.rb
+ create mode 100644 app/views/layouts/_flash_messages.html.erb
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100644 app/views/layouts/mailer.html.erb
+ create mode 100644 app/views/layouts/mailer.text.erb
+ create mode 100644 app/views/messages/edit.html.erb
+ create mode 100644 app/views/messages/index.html.erb
+ create mode 100644 app/views/messages/new.html.erb
+ create mode 100644 app/views/messages/show.html.erb
+ create mode 100755 bin/bundle
+ create mode 100755 bin/rails
+ create mode 100755 bin/rake
+ create mode 100755 bin/setup
+ create mode 100755 bin/update
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/cable.yml
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/application_controller_renderer.rb
+ create mode 100644 config/initializers/assets.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/cookies_serializer.rb
+ create mode 100644 config/initializers/filter_parameter_logging.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/new_framework_defaults.rb
+ create mode 100644 config/initializers/session_store.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/puma.rb
+ create mode 100644 config/routes.rb
+ create mode 100644 config/secrets.yml
+ create mode 100644 config/spring.rb
+ create mode 100644 db/migrate/20170420001247_create_messages.rb
+ create mode 100644 db/schema.rb
+ create mode 100644 db/seeds.rb
+ create mode 100644 lib/assets/.keep
+ create mode 100644 lib/tasks/.keep
+ create mode 100644 log/.keep
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/apple-touch-icon-precomposed.png
+ create mode 100644 public/apple-touch-icon.png
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/robots.txt
+ create mode 100644 tmp/.keep
+ create mode 100644 vendor/assets/javascripts/.keep
+ create mode 100644 vendor/assets/stylesheets/.keep
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ ls
+Gemfile  Gemfile.lock  README.md  Rakefile  [0m[01;34mapp[0m/  [01;34mbin[0m/  [01;34mconfig[0m/  config.ru  [01;34mdb[0m/  [01;34mlib[0m/  [01;34mlog[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/  [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git log
+[?1h=[33mcommit a04e59e496cabf8e19d0bbd335c288615b3ca5fa[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Fri Apr 21 01:36:44 2017 +0000[m
+[m
+    firstcommit[m
+[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ gi t[K[K[Kt [K[K[Kgit log -p
+[?1h=[33mcommit a04e59e496cabf8e19d0bbd335c288615b3ca5fa[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Fri Apr 21 01:36:44 2017 +0000[m
+[m
+    firstcommit[m
+[m
+[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..48fb168[m[m
+[1m--- /dev/null[m[m
+:[K[K[1m+++ b/.gitignore[m[m
+:[K[K[36m@@ -0,0 +1,17 @@[m[m
+:[K[K[32m+[m[32m# See https://help.github.com/articles/ignoring-files for more about ignoring files.[m[m
+:[K[K[32m+[m[32m#[m[m
+:[K[K[32m+[m[32m# If you find yourself ignoring temporary files generated by your text editor[m[m
+:[K[K[32m+[m[32m# or operating system, you probably want to add a global ignore instead:[m[m
+:[K[K[32m+[m[32m#   git config --global core.excludesfile '~/.gitignore_global'[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32m# Ignore bundler config.[m[m
+:[K[K[32m+[m[32m/.bundle[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32m# Ignore all logfiles and tempfiles.[m[m
+:[K[K[32m+[m[32m/log/*[m[m
+:[K[K[32m+[m[32m/tmp/*[m[m
+:[K[K[32m+[m[32m!/log/.keep[m[m
+:[K[K[32m+[m[32m!/tmp/.keep[m[m
+:[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git log --stat
+[?1h=[33mcommit a04e59e496cabf8e19d0bbd335c288615b3ca5fa[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Fri Apr 21 01:36:44 2017 +0000[m
+[m
+    firstcommit[m
+[m
+ .gitignore                                             |  17 [32m++++++[m[m
+ Gemfile                                                |  53 [32m++++++++++++++++++[m[m
+ Gemfile.lock                                           | 174 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ README.md                                              |  24 [32m+++++++++[m[m
+:[K[K Rakefile                                               |   6 [32m+++[m[m
+:[K[K app/assets/config/manifest.js                          |   3 [32m++[m[m
+:[K[K app/assets/images/.keep                                |   0[m
+:[K[K app/assets/javascripts/application.js                  |  16 [32m++++++[m[m
+:[K[K app/assets/javascripts/cable.js                        |  13 [32m+++++[m[m
+:[K[K app/assets/javascripts/channels/.keep                  |   0[m
+:[K[K app/assets/stylesheets/application.css                 |  15 [32m++++++[m[m
+:[K[K app/channels/application_cable/channel.rb              |   4 [32m++[m[m
+:[K[K app/channels/application_cable/connection.rb           |   4 [32m++[m[m
+:[K[K app/controllers/application_controller.rb              |   3 [32m++[m[m
+:[K[K app/controllers/concerns/.keep                         |   0[m
+:[K[K app/controllers/messages_controller.rb                 |  68 [32m++++++++++++++++++++++++[m[m
+:[K[K app/helpers/application_helper.rb                      |   2 [32m+[m[m
+:[K[K app/jobs/application_job.rb                            |   2 [32m+[m[m
+:[K[K app/mailers/application_mailer.rb                      |   4 [32m++[m[m
+:[K[K app/models/application_record.rb                       |   3 [32m++[m[m
+:[K[K app/models/concerns/.keep                              |   0[m
+:[K[K app/models/message.rb                                  |   2 [32m+[m[m
+:[K[K app/views/layouts/_flash_messages.html.erb             |   3 [32m++[m[m
+:[K[K app/views/layouts/application.html.erb                 |  17 [32m++++++[m[m
+:[K[K app/views/layouts/mailer.html.erb                      |  13 [32m+++++[m[m
+:[K[K app/views/layouts/mailer.text.erb                      |   1 [32m+[m[m
+:[K[K app/views/messages/edit.html.erb                       |  10 [32m++++[m[m
+:[K[K app/views/messages/index.html.erb                      |  17 [32m++++++[m[m
+:[K[K app/views/messages/new.html.erb                        |  10 [32m++++[m[m
+:[K[K app/views/messages/show.html.erb                       |   8 [32m+++[m[m
+:[K[K bin/bundle                                             |   3 [32m++[m[m
+:[K[K bin/rails                                              |   4 [32m++[m[m
+:[K[K bin/rake                                               |   4 [32m++[m[m
+:[K[K bin/setup                                              |  34 [32m++++++++++++[m[m
+:[K[K bin/update                                             |  29 [32m++++++++++[m[m
+:[K[K config.ru                                              |   5 [32m++[m[m
+:[K[K config/application.rb                                  |  25 [32m+++++++++[m[m
+:[K[K config/boot.rb                                         |   3 [32m++[m[m
+:[K[K config/cable.yml                                       |   9 [32m++++[m[m
+:[K[K config/database.yml                                    |  54 [32m+++++++++++++++++++[m[m
+:[K[K config/environment.rb                                  |   5 [32m++[m[m
+:[K[K config/environments/development.rb                     |  54 [32m+++++++++++++++++++[m[m
+:[K[K config/environments/production.rb                      |  86 [32m++++++++++++++++++++++++++++++[m[m
+:[K[K config/environments/test.rb                            |  42 [32m+++++++++++++++[m[m
+:[K[K config/initializers/application_controller_renderer.rb |   6 [32m+++[m[m
+:[K[K config/initializers/assets.rb                          |  11 [32m++++[m[m
+:[K[K config/initializers/backtrace_silencers.rb             |   7 [32m+++[m[m
+:[K[K config/initializers/cookies_serializer.rb              |   5 [32m++[m[m
+:[K[K config/initializers/filter_parameter_logging.rb        |   4 [32m++[m[m
+:[K[K config/initializers/inflections.rb                     |  16 [32m++++++[m[m
+:[K[K config/initializers/mime_types.rb                      |   4 [32m++[m[m
+:[K[K config/initializers/new_framework_defaults.rb          |  24 [32m+++++++++[m[m
+:[K[K config/initializers/session_store.rb                   |   3 [32m++[m[m
+:[K[K config/initializers/wrap_parameters.rb                 |  14 [32m+++++[m[m
+:[K[K config/locales/en.yml                                  |  23 [32m++++++++[m[m
+:[K[K config/puma.rb                                         |  47 [32m++++++++++++++++[m[m
+:[K[K config/routes.rb                                       |  25 [32m+++++++++[m[m
+:[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 4[K
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ ls
+Gemfile  Gemfile.lock  README.md  Rakefile  [0m[01;34mapp[0m/  [01;34mbin[0m/  [01;34mconfig[0m/  config.ru  [01;34mdb[0m/  [01;34mlib[0m/  [01;34mlog[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/  [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/views/messages/_form.html.erb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/_form.html.erb" [New File][2;1H[1m[34m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H0,0-1[9CAll[1;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H0,1[11CAll[1;1Hsage) do |f| %[1m[37m[41m>[0m
+  [35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[2;40H[K[3;1H  [35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[3;31H[K[4;1H[K[5;1H  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>[0m[5;25H[K[6;1H[35m<%[0m [33mend[0m [35m%>[0m[6;10H[K[7;1H[K[11;106H7[7;1H[34h[?25h[11;1H[K[7;1H[?25l[11;106H7,0-1[9CAll[7;1H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[11;1H[K[11;106H7,0-1[9CAll[7;1H[34h[?25h[?25l[11;106H6,1  [6;1H[34h[?25h[?25l[11;106H5[5;1H[34h[?25h[?25l[11;106H4,0-1[4;1H[34h[?25h[?25l[11;106H3,1  [3;1H[34h[?25h[?25l[11;106H2[2;1H[34h[?25h[?25l[11;106H1[1;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;106H[K[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[2;10r[2;1H[6L[1;11r[2;3H[35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>
+[0m  [35m<%=[0m f.text_field [31m:content[0m [35m%>
+
+[0m  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>
+<%[0m [33mend[0m [35m%>[0m
+sage) do |f| %[1m[37m[41m>[0m[11;106H[K[11;106H7,1[11CTop[7;1H[34h[?25h[?25l[1;10r[1;1H[3M[1;11r[8;3H[35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>
+<%[0m [33mend[0m [35m%>[0m
+sage) do |f| %[1m[37m[41m>[0m[11;106H[K[11;106H13,1[10C33%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H14,1[10C44%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[11;106H[K[11;106H15,1[10C55%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H16,1[10C66%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H17,1[10C77%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;1H[35m<%[0m [33mend[0m [35m%>[0m[11;106H[K[11;106H18,1[10C88%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H19,1[10CBot[10;1H[34h[?25h[11;1H[K[10;1H[?25l[11;106H19,0-1[8CBot[10;1H[34h[?25h[?25l
+[1m-- VISUAL --[0m[11;106H[K[11;106H19,0-1[8CBot[10;1H[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[23m[24m[0m[H[J[1;1Hs[7mage) do |f| %[0m[1m[7m[37m[41m>[0m[7m 
+  [0m[7m[35m<%=[0m[7m f.label [0m[7m[31m:content[0m[7m, [0m[7m[35m'[0m[7m[31mメッセージ[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m 
+  [0m[7m[35m<%=[0m[7m f.text_field [0m[7m[31m:content[0m[7m [0m[7m[35m%>[0m[7m 
+ 
+  [0m[7m[35m<%=[0m[7m f.submit [0m[7m[35m'[0m[7m[31m投稿[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m [0m
+[7m[35m<%[0m[7m [0m[7m[33mend[0m[7m [0m[7m[35m%>[0m[7m 
+sage) do |f| %[0m[1m[7m[37m[41m>[0m[7m 
+  [0m[7m[35m<%=[0m[7m f.label [0m[7m[31m:content[0m[7m, [0m[7m[35m'[0m[7m[31mメッセージ[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m 
+  [0m[7m[35m<%=[0m[7m f.text_field [0m[7m[31m:content[0m[7m [0m[7m[35m%>[0m[7m 
+ [0m
+[1m-- VISUAL --[0m[93C1,1[11CTop[1;1H[34h[?25h[?25l[11;1H18 fewer lines[11;106H[K[1;1H[K[2;1H[1m[34m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H1,0-1[9CAll[11;106H[K[11;106H1,0-1[9CAll[1;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[35m<%=[0m form_for(message) [33mdo[0m |[36mf[0m| [35m%>[0m
+  [35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[2;40H[K[3;1H  [35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[3;31H[K[4;1H[K[5;1H  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>[0m[5;25H[K[6;1H[35m<%[0m [33mend[0m [35m%>[0m[6;10H[K[11;106H6,10[6;10H[34h[?25h[11;1H[K[6;9H[?25l[11;106H6,9[11CAll[6;9H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/_form.html.erb" [New] 6L, 146C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/views/messages/new.html.erb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/new.html.erb" [noeol] 10L, 242C[1;1H[36m<[0m[33mh1[0m[36m>[0m[35mメッセージ新規作成ページ[0m[36m</[0m[33mh1[0m[36m>[0m
+
+[35m<%=[0m form_for([36m@message[0m) [33mdo[0m |[36mf[0m| [35m%>
+[0m  [35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>
+[0m  [35m<%=[0m f.text_field [31m:content[0m [35m%>
+
+[0m  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>
+<%[0m [33mend[0m [35m%>
+
+<%=[0m link_to [35m'[0m[31m一覧に戻る[0m[35m'[0m, messages_path [35m%>[0m[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[11;106H2,0-1[2;1H[34h[?25h[?25l[11;106H3,1  [3;1H[34h[?25h[?25l[11;106H4[4;1H[34h[?25h[?25l[11;106H3[3;1H[34h[?25h[?25l[11;1H[1m-- VISUAL --[0m[11;13H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[7m[35m<%=[0m[7m form_for([0m[7m[36m@message[0m[7m) [0m[7m[33mdo[0m[7m |[0m[7m[36mf[0m[7m| [0m[7m[35m%>[0m[7m [0m[11;106H4[4;1H[34h[?25h[?25l[7m  [0m[7m[35m<%=[0m[7m f.label [0m[7m[31m:content[0m[7m, [0m[7m[35m'[0m[7m[31mメッセージ[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H5[5;1H[34h[?25h[?25l[7m  [0m[7m[35m<%=[0m[7m f.text_field [0m[7m[31m:content[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H6,0-1[6;1H[34h[?25h[?25l[7m [0m[11;106H7,1  [7;1H[34h[?25h[?25l[7m  [0m[7m[35m<%=[0m[7m f.submit [0m[7m[35m'[0m[7m[31m投稿[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H8[8;1H[34h[?25h[?25l[7m[35m<%[0m[7m [0m[7m[33mend[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H9,0-1[9;1H[34h[?25h[?25l
+
+7 fewer lines[11;106H[K[3;1H[35m<%=[0m link_to [35m'[0m[31m一覧に戻る[0m[35m'[0m, messages_path [35m%>[0m
+[1m[34m~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H3,1[11CAll[11;106H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H3,1[11CTop[3;10r[3;1H[L[1;11r[11;106H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[4;10r[4;1H[L[1;11r[11;106H[K[11;106H4,1[11CAll[4;1H[34h[?25h[?25l[11;106H3[3;1H[34h[?25h[?25l[4;10r[4;1H[L[1;11r[3;1H[35m<%=[0m render [35m'[0m[31mform[0m[35m'[0m, [31mmessage[0m: [36m@message[0m [35m%>[0m[11;106H[K[11;106H4,1[11CAll[4;1H[34h[?25h[?25l[3;10r[10;1H
+[1;11r[3;1H[35m<%=[0m render [35m'[0m[31mform[0m[35m'[0m, [31mmessage[0m: [36m@message[0m [35m%>[0m[10;1H[1m[34m~                                                                                                                          [0m[11;106H[K[11;106H3,40[10CAll[3;40H[34h[?25h[11;1H[K[?25l[11;106H3,39[10CAll[3;39H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/new.html.erb" 5L, 136C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim 
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[2;1H[1m[34m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H0,0-1[9CAll[1;1H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[11;3H[K[11;3H[34h[?25h[?25l[11;2H[K[11;2H[34h[?25hq[?25l[34h[?25h[?25l[11;1H[K[11;1H[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/views/messages/edit.html.erb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/edit.html.erb" [noeol] 10L, 262C[1;1H[36m<[0m[33mh1[0m[36m>[0m[35mid: <%=[0m [36m@message[0m.id [35m%> のメッセージ編集ページ[0m[36m</[0m[33mh1[0m[36m>[0m
+
+[35m<%=[0m form_for([36m@message[0m) [33mdo[0m |[36mf[0m| [35m%>
+[0m  [35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>
+[0m  [35m<%=[0m f.text_field [31m:content[0m [35m%>
+
+[0m  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>
+<%[0m [33mend[0m [35m%>
+
+<%=[0m link_to [35m'[0m[31m一覧に戻る[0m[35m'[0m, messages_path [35m%>[0m[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[11;106H2,0-1[2;1H[34h[?25h[?25l[11;106H3,1  [3;1H[34h[?25h[?25l[11;1H[1m-- VISUAL --[0m[11;13H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[7m[35m<%=[0m[7m form_for([0m[7m[36m@message[0m[7m) [0m[7m[33mdo[0m[7m |[0m[7m[36mf[0m[7m| [0m[7m[35m%>[0m[7m [0m[11;106H4[4;1H[34h[?25h[?25l[7m  [0m[7m[35m<%=[0m[7m f.label [0m[7m[31m:content[0m[7m, [0m[7m[35m'[0m[7m[31mメッセージ[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H5[5;1H[34h[?25h[?25l[7m  [0m[7m[35m<%=[0m[7m f.text_field [0m[7m[31m:content[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H6,0-1[6;1H[34h[?25h[?25l[7m [0m[11;106H7,1  [7;1H[34h[?25h[?25l[7m  [0m[7m[35m<%=[0m[7m f.submit [0m[7m[35m'[0m[7m[31m投稿[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H8[8;1H[34h[?25h[?25l[7m[35m<%[0m[7m [0m[7m[33mend[0m[7m [0m[7m[35m%>[0m[7m [0m[11;106H9,0-1[9;1H[34h[?25h[?25l
+
+7 fewer lines[11;106H[K[3;1H[35m<%=[0m link_to [35m'[0m[31m一覧に戻る[0m[35m'[0m, messages_path [35m%>[0m
+[1m[34m~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H3,1[11CAll[11;106H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H3,1[11CTop[3;10r[3;1H[L[1;11r[11;106H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[4;10r[4;1H[L[1;11r[11;106H[K[11;106H4,1[11CAll[4;1H[34h[?25h[?25l[11;106H3[3;1H[34h[?25h[?25l[35m<%=[0m render [35m'[0m[31mform[0m[35m'[0m, [31mmessage[0m: [36m@message[0m [35m%>[0m[11;108H40[3;40H[34h[?25h[11;1H[K[3;39H[?25l[11;106H3,39[10CAll[3;39H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25h[?25l"app/views/messages/edit.html.erb" 5L, 156C written[54C3,39[10CAll[11;106H[K[11;106H3,39[10CAll[3;39H[34h[?25h[?25l[11;1H[K[11;1H:[34h[?25hq[?25l[34h[?25h[?25l[11;2H[K[11;2H[34h[?25h [?25l[104C3,39[10CAll[3;39H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/edit.html.erb" 5L, 156C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/views/messages/edit.html.erb[m
+	[31mmodified:   app/views/messages/new.html.erb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mapp/views/messages/_form.html.erb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git diff
+[?1h=[1mdiff --git a/app/views/messages/edit.html.erb b/app/views/messages/edit.html.erb[m[m
+[1mindex adc6109..1a4af90 100644[m[m
+[1m--- a/app/views/messages/edit.html.erb[m[m
+[1m+++ b/app/views/messages/edit.html.erb[m[m
+[36m@@ -1,10 +1,5 @@[m[m
+ <h1>id: <%= @message.id %> のメッセージ編集ページ</h1>[m[m
+ [m[m
+[31m-<%= form_for(@message) do |f| %>[m[m
+[31m-  <%= f.label :content, 'メッセージ' %>[m[m
+[31m-  <%= f.text_field :content %>[m[m
+:[K[K[32m+[m[32m<%= render 'form', message: @message %>[m[m
+:[K[K [m[m
+:[K[K[31m-  <%= f.submit '投稿' %>[m[m
+:[K[K[31m-<% end %>[m[m
+:[K[K[31m-[m[m
+:[K[K[31m-<%= link_to '一覧に戻る', messages_path %>[m[m
+:[K[K\ No newline at end of file[m[m
+:[K[K[32m+[m[32m<%= link_to '一覧に戻る', messages_path %>[m[m
+:[K[K[1mdiff --git a/app/views/messages/new.html.erb b/app/views/messages/new.html.erb[m[m
+:[K[K[1mindex ced8ce0..e889c9f 100644[m[m
+:[K[K[1m--- a/app/views/messages/new.html.erb[m[m
+:[K[K[1m+++ b/app/views/messages/new.html.erb[m[m
+:[K[K[36m@@ -1,10 +1,5 @@[m[m
+:[K[K <h1>メッセージ新規作成ページ</h1>[m[m
+:[K[K [m[m
+:[K[K[31m-<%= form_for(@message) do |f| %>[m[m
+:[K[K[31m-  <%= f.label :content, 'メッセージ' %>[m[m
+:[K[K[31m-  <%= f.text_field :content %>[m[m
+:[K[K[32m+[m[32m<%= render 'form', message: @message %>[m[m
+:[K[K [m[m
+:[K[K[31m-  <%= f.submit '投稿' %>[m[m
+:[K[K[31m-<% end %>[m[m
+:[K[K[31m-[m[m
+:[K[K[31m-<%= link_to '一覧に戻る', messages_path %>[m[m
+:[K[K\ No newline at end of file[m[m
+:[K[K[32m+[m[32m<%= link_to '一覧に戻る', messages_path %>[m[m
+:[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git daa[K[K[Kadd .
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git commit -m "DRY"
+[master 7677a84] DRY
+ 3 files changed, 10 insertions(+), 14 deletions(-)
+ create mode 100644 app/views/messages/_form.html.erb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git commit -m "DRY"[10Padd .[1Pdiffstatus[K[K[K[K[K[K[K[K[K[K
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/models/message.rb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/models/message.rb" 2L, 38C[1;1H[35mclass[0m [32mMessage[0m < [32mApplicationRecord[0m
+[35mend[0m
+[1m[34m~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H2,1[11CTop[2;10r[2;1H[L[1;11r[11;106H[K[11;106H2,1[11CAll[2;1H[34h[?25h[?25lvalidates [31m:content[0m, [31mpresence[0m: [31mtrue[0m, [31mlength[0m: { [31mmaximum[0m: [31m255[0m }[2;45H[46m{[14C}[0m[11;106H[K[11;106H2,61[10CAll[2;61H[34h[?25h[11;1H[K[2;60H[?25l[11;106H2,60[10CAll[2;60H[34h[?25h[?25l[2;45H{[14C}[11;108H1 [2;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;106H[K[11;106H2,1[11CAll[2;1H[34h[?25h[?25l validates [31m:content[0m, [31mpresence[0m: [31mtrue[0m, [31mlength[0m: { [31mmaximum[0m: [31m255[0m }[11;108H2[2;2H[34h[?25h[?25l validates [31m:content[0m, [31mpresence[0m: [31mtrue[0m, [31mlength[0m: { [31mmaximum[0m: [31m255[0m }[11;108H3[2;3H[34h[?25h[?25l：ｗｑvalidates [31m:content[0m, [31mpresenc[0m[1C: [31mtrue[0m, [31mlength[0m: { [1C[31maximum[0m: [31m255[0m }[11;108H12-9[2;9H[34h[?25h[?25lvalidates [31m:content[0m, [31mpresence[0m: [31mtrue[0m, [31mlength[0m: { [31mmaximu[0m[1C: [31m255[0m }[2;68H[K[11;108H9-7 [2;7H[34h[?25h[?25l  validates [31m:content[0m, [31mpresence[0m: [31mtrue[0m, [31mlength[0m: { [31mmaximum[0m: [31m255[0m }[2;63H[K[11;108H3  [2;3H[34h[?25h[11;1H[K[2;2H[?25l[11;106H2,2[11CAll[2;2H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/models/message.rb" 3L, 101C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/views/messages/_form.html.erb][K
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/_form.html.erb" 6L, 146C[1;1H[35m<%=[0m form_for(message) [33mdo[0m |[36mf[0m| [35m%>
+[0m  [35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>
+[0m  [35m<%=[0m f.text_field [31m:content[0m [35m%>
+
+[0m  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>
+<%[0m [33mend[0m [35m%>[0m
+[1m[34m~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[11;106H2[2;1H[34h[?25h[?25l[11;106H3[3;1H[34h[?25h[?25l[11;108H2[3;2H[34h[?25h[?25l[11;108H3[3;3H[34h[?25h[?25l[11;106H2[2;3H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H2,1[11CTop[2;10r[2;1H[L[1;11r[11;106H[K[11;106H2,1[11CAll[2;1H[34h[?25h[?25l[3;10r[3;1H[L[1;11r[11;106H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[4;10r[4;1H[L[1;11r[11;106H[K[11;106H4,1[11CAll[4;1H[34h[?25h[?25l[11;106H3[3;1H[34h[?25h[?25l[11;108H2[3;2H[34h[?25h[?25l[11;108H3[3;3H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[2;3H[35m<%[0m [33mif[0m message.errors.any? [35m%>[0m
+    [36m<[0m[33mdiv[0m[36m [0m[32mid[0m[36m=[0m[31m"error_explanation"[0m[36m>[0m
+      [36m<[0m[33mul[0m[36m>[0m[4;11H[K[5;3H      [35m<%[0m message.errors.full_messages.each [33mdo[0m |[36mmessage[0m| [35m%>[0m[6;11H[36m<[0m[33mli[0m[36m>[0m[35m<%=[0m message [35m%>[0m[36m</[0m[33mli[0m[36m>[0m
+        [35m<%[0m [33mend[0m [35m%>[0m[31m [0m[7;18H[K[8;1H      [36m</[0m[33mul[0m[36m>[0m
+    [36m</[0m[33mdiv[0m[36m>[0m[9;11H[K[10;3H[35m<%[0m [33mend[0m [35m%>[0m[11;106H[K[11;106H11,12[9C14%[10;12H[34h[?25h[11;1H[K[10;11H[?25l[11;106H11,11[9C14%[10;11H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H12,0-1[8C28%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H13,11[9C42%[10;11H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[11;106H[K[11;106H14,11[9C57%[10;11H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H15,0-1[8C71%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H16,11[9C85%[10;11H[34h[?25h[?25l[11;107H5,0-1[9;1H[34h[?25h[?25l[11;107H4,11 [8;11H[34h[?25h[?25l[11;107H3[7;11H[34h[?25h[?25l[11;107H2,0-1[6;1H[34h[?25h[?25l[11;107H1,11 [5;11H[34h[?25h[?25l[11;107H0,10[4;10H[34h[?25h[?25l[11;106H9,11 [3;11H[34h[?25h[?25l[11;106H8[2;11H[34h[?25h[?25l[11;106H7[1;11H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;9H[35m<%[0m message.errors.full_messages.each [33mdo[0m |[36mmessage[0m| [35m%>[0m[11;106H[K[11;106H6,11[10C71%[1;11H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;7H[36m<[0m[33mul[0m[36m>[0m[11;106H[K[11;106H5,10[10C57%[1;10H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;5H[36m<[0m[33mdiv[0m[36m [0m[32mid[0m[36m=[0m[31m"error_explanation"[0m[36m>[0m[11;106H[K[11;106H4,11[10C42%[1;11H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;3H[35m<%[0m [33mif[0m message.errors.any? [35m%>[0m[11;106H[K[11;106H3,11[10C28%[1;11H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[11;106H[K[11;106H2,0-1[9C14%[1;1H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;1H[35m<%=[0m form_for(message) [33mdo[0m |[36mf[0m| [35m%>[0m[11;106H[K[11;106H1,11[10CTop[1;11H[34h[?25h[?25l[11;106H2,0-1[2;1H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25h[?25l"app/views/messages/_form.html.erb" 17L, 371C written[52C2,0-1[9CTop[11;106H[K[11;106H2,0-1[9CTop[2;1H[34h[?25h[?25l[11;106H3,11 [3;11H[34h[?25h[?25l[11;106H4[4;11H[34h[?25h[?25l[11;106H5,10[5;10H[34h[?25h[?25l[11;106H6,11[6;11H[34h[?25h[?25l[11;106H7[7;11H[34h[?25h[?25l[11;106H8[8;11H[34h[?25h[?25l[11;106H9[9;11H[34h[?25h[?25l[11;106H10,10[10;10H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%[0m [33mend[0m [35m%>[0m[11;1H[K[11;106H11,11[9C14%[10;11H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H12,0-1[8C28%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H13,11[9C42%[10;11H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[11;106H[K[11;106H14,11[9C57%[10;11H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H15,0-1[8C71%[10;1H[34h[?25h[?25l[11;107H4,11 [9;11H[34h[?25h[?25l[11;107H3[8;11H[34h[?25h[?25l[11;107H2,0-1[7;1H[34h[?25h[?25l[11;107H1,11 [6;11H[34h[?25h[?25l[11;107H0,10[5;10H[34h[?25h[?25l[11;106H9,11 [4;11H[34h[?25h[?25l[11;106H8[3;11H[34h[?25h[?25l[11;106H7[2;11H[34h[?25h[?25l[11;106H6[1;11H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;7H[36m<[0m[33mul[0m[36m>[0m[11;106H[K[11;106H5,10[10C57%[1;10H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;5H[36m<[0m[33mdiv[0m[36m [0m[32mid[0m[36m=[0m[31m"error_explanation"[0m[36m>[0m[11;106H[K[11;106H4,11[10C42%[1;11H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;3H[35m<%[0m [33mif[0m message.errors.any? [35m%>[0m[11;106H[K[11;106H3,11[10C28%[1;11H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[11;106H[K[11;106H2,0-1[9C14%[1;1H[34h[?25h[?25l[1;10r[1;1H[L[1;11r[1;1H[35m<%=[0m form_for(message) [33mdo[0m |[36mf[0m| [35m%>[0m[11;106H[K[11;106H1,11[10CTop[1;11H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/_form.html.erb" 17L, 371C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/models/message.rb[m
+	[31mmodified:   app/views/messages/_form.html.erb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git diff
+[?1h=[1mdiff --git a/app/models/message.rb b/app/models/message.rb[m[m
+[1mindex 28bdd9d..d088bcb 100644[m[m
+[1m--- a/app/models/message.rb[m[m
+[1m+++ b/app/models/message.rb[m[m
+[36m@@ -1,2 +1,3 @@[m[m
+ class Message < ApplicationRecord[m[m
+[32m+[m[32m  validates :content, presence: true, length: { maximum: 255 }[m[m
+ end[m[m
+[1mdiff --git a/app/views/messages/_form.html.erb b/app/views/messages/_form.html.erb[m[m
+[1mindex a16052b..d6b7de0 100644[m[m
+:[K[K[1m--- a/app/views/messages/_form.html.erb[m[m
+:[K[K[1m+++ b/app/views/messages/_form.html.erb[m[m
+:[K[K[36m@@ -1,4 +1,15 @@[m[m
+:[K[K <%= form_for(message) do |f| %>[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32m  <% if message.errors.any? %>[m[m
+:[K[K[32m+[m[32m    <div id="error_explanation">[m[m
+:[K[K[32m+[m[32m      <ul>[m[m
+:[K[K[32m+[m[32m        <% message.errors.full_messages.each do |message| %>[m[m
+:[K[K[32m+[m[32m          <li><%= message %></li>[m[m
+:[K[K[32m+[m[32m        <% end %>[m[m
+:[K[K[32m+[m[32m      </ul>[m[m
+:[K[K[32m+[m[32m    </div>[m[m
+:[K[K[32m+[m[32m  <% end %>[m[m
+:[K[K[32m+[m[m
+:[K[K   <%= f.label :content, 'メッセージ' %>[m[m
+:[K[K   <%= f.text_field :content %>[m[m
+:[K[K [m[m
+:[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git add .
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git commit -m "validation"
+[master 6d624c3] validation
+ 2 files changed, 12 insertions(+)
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ rails g migration AddTitleToMessages title:string
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170421022134_add_title_to_messages.rb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim db/migrate/2017042
+20170420001247_create_messages.rb        20170421022134_add_title_to_messages.rb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim db/migrate/2017042
+20170420001247_create_messages.rb        20170421022134_add_title_to_messages.rb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim db/migrate/20170422[K1022134_add_title_to_messages.rb 
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"db/migrate/20170421022134_add_title_to_messages.rb" 5L, 121C[1;1H[35mclass[0m [32mAddTitleToMessages[0m < [32mActiveRecord[0m::[32mMigration[0m[[31m5.0[0m]
+  [35mdef[0m [36mchange[0m
+    add_column [31m:messages[0m, [31m:title[0m, [31m:string[0m
+  [35mend
+end[0m
+[1m[34m~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[11;1H[K[11;1H:[34h[?25hq[?25l[34h[?25h[?25l[11;1H[K[11;1H[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ ria[K[K[Krails db:migrate
+== 20170421022134 AddTitleToMessages: migrating ===============================
+-- add_column(:messages, :title, :string)
+   -> 0.0513s
+== 20170421022134 AddTitleToMessages: migrated (0.0515s) ======================
+
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/models/message.rb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/models/message.rb" 3L, 101C[1;1H[35mclass[0m [32mMessage[0m < [32mApplicationRecord[0m
+  validates [31m:content[0m, [31mpresence[0m: [31mtrue[0m, [31mlength[0m: { [31mmaximum[0m: [31m255[0m }
+[35mend[0m
+[1m[34m~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[11;106H2[2;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H3,1[11CTop[3;10r[3;1H[L[1;11r[11;106H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[11;108H2[3;2H[34h[?25h[?25l[11;108H3[3;3H[34h[?25h[?25lvalidates [31m:title[0m, [31mpresence[0m: [31mtrue[0m, [31mlength[0m: { [31mmaximum[0m: [31m255[0m }[3;45H[46m{[14C}[0m[11;106H[K[11;106H3,61[10CAll[3;61H[34h[?25h[11;1H[K[3;60H[?25l[11;106H3,60[10CAll[3;60H[34h[?25h[?25l[3;45H{[14C}[11;106H4,1 [4;1H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hq[?25l[34h[?25h[?25l[1m[37m[41mE37: No write since last change (add ! to override)[0m[54C4,1[11CAll[4;1H[34h[?25h[?25l[11;1H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/models/message.rb" 4L, 162C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/controllers/messages_controller.rb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/controllers/messages_controller.rb" 68L, 2719C[1;1H[35mclass[0m [32mMessagesController[0m < [32mApplicationController[0m
+  [35mdef[0m [36mindex[0m
+    [34m# レコードの一覧表示[0m
+    [36m@messages[0m = [32mMessage[0m.all
+    [34m# インスタンス変数を経由することで Controller から View へ変数を渡すことができます。[0m
+  [35mend
+
+[0m  [35mdef[0m [36mshow
+[0m    [36m@message[0m = [32mMessage[0m.find(params[[31m:id[0m])
+    [34m# index アクションのときは Message.all でレコード全てを取得していましたが、今回は id が指定されているので、 Message.fin[0m[10;1H[1m[34m@                                                                                                                          [0m[11;106H1,1[11CTop[1;1H[34h[?25h[?25l[11;1H[K[11;1H/[34h[?25hp[?25l[34h[?25ha[?25l[34h[?25hr[?25l[34h[?25ha[?25l[34h[?25hm[?25l[34h[?25h[?25l[105C9,29[10CTop[9;29H[34h[?25h[?25l[46m([11C)[0m[11;109H8[9;28H[34h[?25h[?25l[11;1H[K[11;1H/[34h[?25hd[?25l[34h[?25he[?25l[34h[?25h[?25l [34h[?25hf[?25l[34h[?25hm[?25l[34h[?25h[?25l[11;6H[K[11;6H[34h[?25h[?25l[11;5H[K[11;5H[34h[?25hm[?25l[34h[?25he[?25l[34h[?25hs[?25l[34h[?25hs[?25l[34h[?25ha[?25l[34h[?25h[?25l[31msearch hit BOTTOM, continuing at TOP[0m[1m[37m[41mE486: Pattern not found: de messa[0m[11;34H[K[11;106H9,28[10CTop[9;28H[34h[?25h[?25l[11;1H[K[11;1H/[34h[?25hd[?25l[34h[?25he[?25l[34h[?25hf[?25l[34h[?25h[?25l[1;10r[1;1H[5M[1;11r[4;28H([11C)
+    [34m# index アクションのときは Message.all でレコード全てを取得していましたが、今回は id が指定されているので、 Message.finn[6;1Hd(params[:id]) によって1つだけ取得します。そのため、 @message 変数も単数形の命名にしています。GETメソッドやPOSTメソッドなど[7;1Hや、URL のパラメータやデータは全て params に代入されて受け取れます。[0m
+  [35mend
+
+[0m  [35mdef[0m [36mnew[0m[11;1H[K[11;106H13,3[11C8%[10;3H[34h[?25h[?25l
+/def[11;106H[K[11;1H[1;10r[1;1H[4M[1;11r[7;6H[36m@message[0m = [32mMessage[0m.new
+  [35mend
+
+[0m  [35mdef[0m [36mcreate[0m[11;1H[K[11;106H17,3[10C15%[10;3H[34h[?25h[?25l
+/def[11;106H[K[11;1H[23m[24m[0m[H[J[1;7H[34m# 8.7理解度低い[0m
+    [33mend[0m
+  [35mend
+
+[0m  [35mdef[0m [36medit
+[0m    [36m@message[0m = [32mMessage[0m.find(params[[31m:id[0m])
+  [35mend
+
+[0m  [35mdef[0m [36mupdate[10;6H@message[0m = [32mMessage[0m.find(params[[31m:id[0m])[11;106H33,3[10C48%[5;3H[34h[?25h[?25l[11;1H/def[11;106H[K[11;1H[105C37,3[10C48%[9;3H[34h[?25h[?25l[11;106H[K[11;1H[23m[24m[0m[H[J[1;7Hrender [31m:edit[0m
+    [33mend[0m
+  [35mend
+
+[0m  [35mdef[0m [36mdestroy
+[0m    [36m@message[0m = [32mMessage[0m.find(params[[31m:id[0m])
+    [36m@message[0m.destroy[9;5Hflash[[31m:success[0m] = [35m'[0m[31mMessage は正常に削除されました[0m[35m'[0m
+    redirect_to messages_url[11;106H51,3[10C79%[5;3H[34h[?25h[?25l[11;1H/def[11;106H[K[11;1H[23m[24m[0m[H[J[2;3H[33mprivate[0m
+
+  [34m# Strong Parameter[0m
+  [35mdef[0m [36mmessage_params[0m
+    params.require([31m:message[0m).permit([31m:content[0m)
+  [35mend[0m
+  [34m#new から create へ送られてきたフォームの内容は params[:message] に入っています。しかし、 params[:message] をそのまま使用 [9;1Hするのは、セキュリティの観点から推奨されません。直接 params[:message] を扱うのではなく、Strong Parameter（ストロングパラメ[0m[1m[34m>>[0m[10;1H[34mータ）というフィルタを使用します。[0m[11;106H63,3[10C96%[5;3H[34h[?25h[?25l[11;107H4[6;3H[34h[?25h[?25l[11;109H4[6;4H[34h[?25h[?25l[11;109H5[6;5H[34h[?25h[?25l[11;109H6[6;6H[34h[?25h[?25l[11;109H7[6;7H[34h[?25h[?25l[11;109H8[6;8H[34h[?25h[?25l[11;109H9[6;9H[34h[?25h[?25l[11;109H10[6;10H[34h[?25h[?25l[11;110H1[6;11H[34h[?25h[?25l[11;110H2[6;12H[34h[?25h[?25l[11;110H3[6;13H[34h[?25h[?25l[11;110H4[6;14H[34h[?25h[?25l[11;110H5[6;15H[34h[?25h[?25l[11;110H6[6;16H[34h[?25h[?25l[11;110H7[6;17H[34h[?25h[?25l[11;110H8[6;18H[34h[?25h[?25le[46m([8C)[0m[11;110H9[6;19H[34h[?25h[?25l([8C)[11;109H20[6;20H[34h[?25h[?25l[11;110H1[6;21H[34h[?25h[?25l[11;110H2[6;22H[34h[?25h[?25l[11;110H3[6;23H[34h[?25h[?25l[11;110H4[6;24H[34h[?25h[?25l[11;110H5[6;25H[34h[?25h[?25l[11;110H6[6;26H[34h[?25h[?25l[11;110H7[6;27H[34h[?25h[?25l[6;19H[46m([8C)[0m[11;110H8[6;28H[34h[?25h[?25l[6;19H([8C)[11;110H9[6;29H[34h[?25h[?25l[11;109H30[6;30H[34h[?25h[?25l[11;110H1[6;31H[34h[?25h[?25l[11;110H2[6;32H[34h[?25h[?25l[11;110H3[6;33H[34h[?25h[?25l[11;110H4[6;34H[34h[?25h[?25l[11;110H5[6;35H[34h[?25h[?25lt[46m([8C)[0m[11;110H6[6;36H[34h[?25h[?25l([8C)[11;110H7[6;37H[34h[?25h[?25l[11;110H8[6;38H[34h[?25h[?25l[11;110H9[6;39H[34h[?25h[?25l[11;109H40[6;40H[34h[?25h[?25l[11;110H1[6;41H[34h[?25h[?25l[11;110H2[6;42H[34h[?25h[?25l[11;110H3[6;43H[34h[?25h[?25l[11;110H4[6;44H[34h[?25h[?25l[6;36H[46m([8C)[0m[11;110H5[6;45H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;106H[K[11;106H64,45[9C96%[6;45H[34h[?25h[?25l[46m,[0m),[46m)[0m[11;110H6[6;46H[34h[?25h[?25l[46m [0m) [46m)[0m[11;110H7[6;47H[34h[?25h[?25l[46m:[0m):[46m)[0m[11;110H8[6;48H[34h[?25h[?25l[31m:[0m[31m[46mt[0m)[31mt[0m[46m)[0m[11;110H9[6;49H[34h[?25h[?25l[31m[46mi[0m)[31mi[0m[46m)[0m[11;109H50[6;50H[34h[?25h[?25l[31m[46mt[0m)[31mt[0m[46m)[0m[11;110H1[6;51H[34h[?25h[?25l[31m[46ml[0m)[31ml[0m[46m)[0m[11;110H2[6;52H[34h[?25h[?25l[31m[46me[0m)[31me[0m[46m)[0m[11;110H3[6;53H[34h[?25h[11;1H[K[6;52H[?25l[6;36H([16C)[11;106H64,52[9C96%[6;52H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/controllers/messages_controller.rb" 68L, 2727C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ rails routes
+      Prefix Verb   URI Pattern                  Controller#Action
+    messages GET    /messages(.:format)          messages#index
+             POST   /messages(.:format)          messages#create
+ new_message GET    /messages/new(.:format)      messages#new
+edit_message GET    /messages/:id/edit(.:format) messages#edit
+     message GET    /messages/:id(.:format)      messages#show
+             PATCH  /messages/:id(.:format)      messages#update
+             PUT    /messages/:id(.:format)      messages#update
+             DELETE /messages/:id(.:format)      messages#destroy
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/views/messages/_form.html.erb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/_form.html.erb" 17L, 371C[1;1H[35m<%=[0m form_for(message) [33mdo[0m |[36mf[0m| [35m%>
+
+[0m  [35m<%[0m [33mif[0m message.errors.any? [35m%>[0m
+    [36m<[0m[33mdiv[0m[36m [0m[32mid[0m[36m=[0m[31m"error_explanation"[0m[36m>[5;7H<[0m[33mul[0m[36m>[0m[6;9H[35m<%[0m message.errors.full_messages.each [33mdo[0m |[36mmessage[0m| [35m%>[0m[7;11H[36m<[0m[33mli[0m[36m>[0m[35m<%=[0m message [35m%>[0m[36m</[0m[33mli[0m[36m>[0m[8;9H[35m<%[0m [33mend[0m [35m%>[0m[9;7H[36m</[0m[33mul[0m[36m>
+[0m    [36m</[0m[33mdiv[0m[36m>[0m[11;106H1,1[11CTop[1;1H[34h[?25h[?25l[11;1H[1m-- VISUAL --[0m[11;13H[K[11;106H1,1[11CTop[1;1H[34h[?25h[?25l[23m[24m[0m[H[J[1;1H[7m        [0m[7m[35m<%[0m[7m [0m[7m[33mend[0m[7m [0m[7m[35m%>[0m[7m 
+      [0m[7m[36m</[0m[7m[33mul[0m[7m[36m>[0m[7m 
+    [0m[7m[36m</[0m[7m[33mdiv[0m[7m[36m>[0m[7m 
+  [0m[7m[35m<%[0m[7m [0m[7m[33mend[0m[7m [0m[7m[35m%>[0m[7m 
+ 
+  [0m[7m[35m<%=[0m[7m f.label [0m[7m[31m:content[0m[7m, [0m[7m[35m'[0m[7m[31mメッセージ[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m 
+  [0m[7m[35m<%=[0m[7m f.text_field [0m[7m[31m:content[0m[7m [0m[7m[35m%>[0m[7m 
+ 
+  [0m[7m[35m<%=[0m[7m f.submit [0m[7m[35m'[0m[7m[31m投稿[0m[7m[35m'[0m[7m [0m[7m[35m%>[0m[7m [0m
+[35m<%[0m [33mend[0m [35m%>[0m
+[1m-- VISUAL --[0m[93C17,1[10CBot[10;1H[34h[?25h[?25l[1;1H        [35m<%[0m [33mend[0m [35m%>[0m[1;18H[K[2;1H      [36m</[0m[33mul[0m[36m>[0m[2;12H[K[3;1H    [36m</[0m[33mdiv[0m[36m>[0m[3;11H[K[4;1H  [35m<%[0m [33mend[0m [35m%>[0m[4;12H[K[5;1H[K[6;1H  [35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[6;40H[K[7;1H  [35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[7;31H[K[8;1H[K[9;1H  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>[0m[9;25H[K[11;1H[K[11;106H17,1[10CBot[10;1H[34h[?25h[?25l[11;107H6,16[9;16H[34h[?25h[?25l[11;107H7,9 [10;9H[34h[?25h[?25l
+[1m-- VISUAL --[0m[11;106H[K[11;106H17,9[10CBot[10;9H[34h[?25h[?25l[23m[24m[0m[H[J[1;1H[35m<[0m[7m[35m%=[0m[7m form_for(message) [0m[7m[33mdo[0m[7m |[0m[7m[36mf[0m[7m| [0m[7m[35m%>[0m[7m 
+ 
+  [0m[7m[35m<%[0m[7m [0m[7m[33mif[0m[7m message.errors.any? [0m[7m[35m%>[0m[7m 
+    [0m[7m[36m<[0m[7m[33mdiv[0m[7m[36m [0m[7m[32mid[0m[7m[36m=[0m[7m[31m"error_explanation"[0m[7m[36m>[0m[7m 
+      [0m[7m[36m<[0m[7m[33mul[0m[7m[36m>[0m[7m 
+        [0m[7m[35m<%[0m[7m message.errors.full_messages.each [0m[7m[33mdo[0m[7m |[0m[7m[36mmessage[0m[7m| [0m[7m[35m%>[0m[7m 
+          [0m[7m[36m<[0m[7m[33mli[0m[7m[36m>[0m[7m[35m<%=[0m[7m message [0m[7m[35m%>[0m[7m[36m</[0m[7m[33mli[0m[7m[36m>[0m[7m 
+        [0m[7m[35m<%[0m[7m [0m[7m[33mend[0m[7m [0m[7m[35m%>[0m[7m 
+      [0m[7m[36m</[0m[7m[33mul[0m[7m[36m>[0m[7m 
+    [0m[7m[36m</[0m[7m[33mdiv[0m[7m[36m>[0m[7m [0m
+[1m-- VISUAL --[0m[93C1,1[11CTop[1;1H[34h[?25h[?25l[11;1H16 fewer lines[11;106H[K[1;1H[K[2;1H[1m[34m~                                                                                                                          [3;1H~                                                                                                                          [4;1H~                                                                                                                          [5;1H~                                                                                                                          [6;1H~                                                                                                                          [7;1H~                                                                                                                          [8;1H~                                                                                                                          [9;1H~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H1,0-1[9CAll[11;106H[K[11;106H1,0-1[9CAll[1;1H[34h[?25h[?25l[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H1,1[11CAll[1;1H[34h[?25h[?25li[11;108H2[1;2H[34h[?25h[?25l\[11;108H3[1;3H[34h[?25h[?25l[1;2H[K[11;108H2[1;2H[34h[?25h[?25l[1;1H[K[11;108H1[1;1H[34h[?25h[?25l  [35m<%[0m [33mend[0m [35m%>[0m[2;1H[K[3;1H  [35m<%=[0m f.label [31m:title[0m, [35m'[0m[31mタイトル[0m[35m'[0m [35m%>[0m[3;36H[K[4;1H  [35m<%=[0m f.text_field [31m:title[0m [35m%>[0m[4;29H[K[5;1H[K[6;1H  [35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[6;40H[K[7;1H  [35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[7;31H[K[8;1H[K[9;1H  [35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>[0m[9;25H[K[10;1H[35m<%[0m [33mend[0m [35m%>[0m[10;10H[K[11;107H9,10[9CBot[10;10H[34h[?25h[11;1H[K[10;9H[?25l[11;106H19,9[10CBot[10;9H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/_form.html.erb" 19L, 440C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git a\[K[Kdiff app/views/e[Kmessages/_form.html.erb
+[?1h=[1mdiff --git a/app/views/messages/_form.html.erb b/app/views/messages/_form.html.erb[m[m
+[1mindex d6b7de0..de60ccb 100644[m[m
+[1m--- a/app/views/messages/_form.html.erb[m[m
+[1m+++ b/app/views/messages/_form.html.erb[m[m
+[36m@@ -1,5 +1,4 @@[m[m
+ <%= form_for(message) do |f| %>[m[m
+[31m-[m[m
+   <% if message.errors.any? %>[m[m
+     <div id="error_explanation">[m[m
+       <ul>[m[m
+:[K[K[36m@@ -10,6 +9,9 @@[m[m
+:[K[K     </div>[m[m
+:[K[K   <% end %>[m[m
+:[K[K [m[m
+:[K[K[32m+[m[32m  <%= f.label :title, 'タイトル' %>[m[m
+:[K[K[32m+[m[32m  <%= f.text_field :title %>[m[m
+:[K[K[32m+[m[m
+:[K[K   <%= f.label :content, 'メッセージ' %>[m[m
+:[K[K   <%= f.text_field :content %>[m[m
+:[K[K [m[m
+:[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[HM       <ul>[m[m
+[11;1H[K:[K[K[HM     <div id="error_explanation">[m[m
+[11;1H[K:[K[K[HM   <% if message.errors.any? %>[m[m
+[11;1H[K:[K[K[HM[31m-[m[m
+[11;1H[K:[K[K[HM <%= form_for(message) do |f| %>[m[m
+[11;1H[K:[K[K[HM[36m@@ -1,5 +1,4 @@[m[m
+[11;1H[K:[K[K[HM[1m+++ b/app/views/messages/_form.html.erb[m[m
+[11;1H[K:[K[K[HM[1m--- a/app/views/messages/_form.html.erb[m[m
+[11;1H[K:[K[K[HM[1mindex d6b7de0..de60ccb 100644[m[m
+[11;1H[K:[K[K[HM[1mdiff --git a/app/views/messages/_form.html.erb b/app/views/messages/_form.html.erb[m[m
+[11;1H[K:[K[K[K:[K[K[K:[K[K[K:[K[K[K:[K[K[K:[K[K[K:[K[K[K:[K[K[K:[K[K[K:[K[K[K:[K[K[36m@@ -10,6 +9,9 @@[m[m
+:[K[K     </div>[m[m
+:[K[K   <% end %>[m[m
+:[K[K [m[m
+:[K[K[32m+[m[32m  <%= f.label :title, 'タイトル' %>[m[m
+:[K[K[32m+[m[32m  <%= f.text_field :title %>[m[m
+:[K[K[32m+[m[m
+:[K[K   <%= f.label :content, 'メッセージ' %>[m[m
+:[K[K   <%= f.text_field :content %>[m[m
+:[K[K [m[m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[HM       <ul>[m[m
+[11;1H[K:[K[K[HM     <div id="error_explanation">[m[m
+[11;1H[K:[K[K[HM   <% if message.errors.any? %>[m[m
+[11;1H[K:[K[K[HM[31m-[m[m
+[11;1H[K:[K[K[HM <%= form_for(message) do |f| %>[m[m
+[11;1H[K:[K[K[HM[36m@@ -1,5 +1,4 @@[m[m
+[11;1H[K:[K[K[HM[1m+++ b/app/views/messages/_form.html.erb[m[m
+[11;1H[K:[K[K[HM[1m--- a/app/views/messages/_form.html.erb[m[m
+[11;1H[K:[K[K[HM[1mindex d6b7de0..de60ccb 100644[m[m
+[11;1H[K:[K[K[HM[1mdiff --git a/app/views/messages/_form.html.erb b/app/views/messages/_form.html.erb[m[m
+[11;1H[K:[K[K[K:[K[K[36m@@ -10,6 +9,9 @@[m[m
+:[K[K     </div>[m[m
+:[K[K   <% end %>[m[m
+:[K[K [m[m
+:[K[K[32m+[m[32m  <%= f.label :title, 'タイトル' %>[m[m
+:[K[K[32m+[m[32m  <%= f.text_field :title %>[m[m
+:[K[K[32m+[m[m
+:[K[K   <%= f.label :content, 'メッセージ' %>[m[m
+:[K[K   <%= f.text_field :content %>[m[m
+:[K[K [m[m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K [K::[Kqq[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git diff app/views/messages/_form.html.erb[5Pvim[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/_form.html.erb" 19L, 440C[1;1H[35m<%=[0m form_for(message) [33mdo[0m |[36mf[0m| [35m%>
+[0m  [35m<%[0m [33mif[0m message.errors.any? [35m%>[0m
+    [36m<[0m[33mdiv[0m[36m [0m[32mid[0m[36m=[0m[31m"error_explanation"[0m[36m>[4;7H<[0m[33mul[0m[36m>[0m[5;9H[35m<%[0m message.errors.full_messages.each [33mdo[0m |[36mmessage[0m| [35m%>[0m[6;11H[36m<[0m[33mli[0m[36m>[0m[35m<%=[0m message [35m%>[0m[36m</[0m[33mli[0m[36m>[0m[7;9H[35m<%[0m [33mend[0m [35m%>[0m[8;7H[36m</[0m[33mul[0m[36m>
+[0m    [36m</[0m[33mdiv[0m[36m>[0m
+  [35m<%[0m [33mend[0m [35m%>[0m[11;106H1,1[11CTop[1;1H[34h[?25h[?25l[11;106H2[2;1H[34h[?25h[?25l[11;106H3[3;1H[34h[?25h[?25l[11;106H4[4;1H[34h[?25h[?25l[11;106H5[5;1H[34h[?25h[?25l[11;106H6[6;1H[34h[?25h[?25l[11;106H7[7;1H[34h[?25h[?25l[11;106H8[8;1H[34h[?25h[?25l[11;106H9[9;1H[34h[?25h[?25l[11;106H10,1[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;1H[K[11;106H11,0-1[8C11%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.label [31m:title[0m, [35m'[0m[31mタイトル[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H12,1[10C22%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.text_field [31m:title[0m [35m%>[0m[11;106H[K[11;106H13,1[10C33%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H14,0-1[8C44%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.label [31m:content[0m, [35m'[0m[31mメッセージ[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H15,1[10C55%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.text_field [31m:content[0m [35m%>[0m[11;106H[K[11;106H16,1[10C66%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[11;106H[K[11;106H17,0-1[8C77%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;3H[35m<%=[0m f.submit [35m'[0m[31m投稿[0m[35m'[0m [35m%>[0m[11;106H[K[11;106H18,1[10C88%[10;1H[34h[?25h[?25l[1;10r[10;1H
+[1;11r[10;1H[35m<%[0m [33mend[0m [35m%>[0m[11;106H[K[11;106H19,1[10CBot[10;1H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/_form.html.erb" 19L, 440C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/views/messages/index.html.erb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/index.html.erb" [noeol] 17L, 1035C[1;1H[36m<[0m[33mh1[0m[36m>[0m[35mメッセージ一覧[0m[36m</[0m[33mh1[0m[36m>
+
+<[0m[33mul[0m[36m>[0m
+  [35m<%[0m [36m@messages[0m.each [33mdo[0m |[36mmessage[0m| [35m%>[0m
+    [36m<[0m[33mli[0m[36m>[0m[35m<%=[0m link_to message.id, message [35m%>[0m : [35m<%=[0m message.content [35m%>[0m[36m</[0m[33mli[0m[36m>[0m
+    [35m<%#[0m
+[34m      link_to は Rails が提供する便利メソッドで、 link_to 表示文字列, リンク先 という形で記述します。
+      ここでは、表示文字列 は message.id つまりメッセージの id であり、リンク先 は message となっています。
+      リンク先 として message のように Model のインスタンス（レコード）を渡すと、自動的にそのインスタンスの 
+      show アクションへとリンクされるようになります。[0m[11;106H1,1[11CTop[1;1H[34h[?25h[?25l[11;106H2,0-1[2;1H[34h[?25h[?25l[11;106H3,1  [3;1H[34h[?25h[?25l[11;106H4[4;1H[34h[?25h[?25l[11;106H5[5;1H[34h[?25h[?25l[11;106H6[6;1H[34h[?25h[?25l[11;106H7[7;1H[34h[?25h[?25l[11;106H8[8;1H[34h[?25h[?25l[11;106H9[9;1H[34h[?25h[?25l[11;106H8[8;1H[34h[?25h[?25l[11;106H7[7;1H[34h[?25h[?25l[11;106H6[6;1H[34h[?25h[?25l[11;106H5[5;1H[34h[?25h[?25l[5;10r[5;1H[2M[1;11r[5;1H      link_to は Rails が提供する便利メソッドで、 link_to 表示文字列, リンク先 という形で記述します。
+      ここでは、表示文字列 は message.id つまりメッセージの id であり、リンク先 は message となっています。
+      リンク先 として message のように Model のインスタンス（レコード）を渡すと、自動的にそのインスタンスの 
+      show アクションへとリンクされるようになります。[9;7H省略せずに書くと message_path(message) となり、リンク先 にこう記述しても正常に動作します。 message も[10;7Hmessage_path(message) もどちらも最終的に /messages/1 など /messages/:id の形の URL を生成しているだけです。[11;1H[K[11;106H5,7[11CTop[5;7H[34h[?25h[?25l[11;1H2 more lines; before #1  4 seconds ago[11;106H[K[5;10r[5;1H[2L[1;11r[5;5H[36m<[0m[33mli[0m[36m>[0m[35m<%=[0m link_to message.id, message [35m%>[0m : [35m<%=[0m message.content [35m%>[0m[36m</[0m[33mli[0m[36m>[0m
+    [35m<%#[0m
+[34m      link_to は Rails が提供する便利メソッドで、 link_to 表示文字列, リンク先 という形で記述します。
+      ここでは、表示文字列 は message.id つまりメッセージの id であり、リンク先 は message となっています。
+      リンク先 として message のように Model のインスタンス（レコード）を渡すと、自動的にそのインスタンスの 
+      show アクションへとリンクされるようになります。[0m[11;1H[K[11;106H5,1[11CTop[5;1H[34h[?25h[?25l[11;106H6[6;1H[34h[?25h[?25l[11;106H5[5;1H[34h[?25h[?25l[11;108H2[5;2H[34h[?25h[?25l[5;10r[10;1H
+[1;11r[10;1H[34m      省略せずに書くと message_path(message) となり、リンク先 にこう記述しても正常に動作します。 message も [0m[11;106H[K[11;106H5,5[11CTop[5;5H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;106H[K[11;106H5,1[11CTop[5;10r[5;1H[L[1;11r[11;106H[K[11;106H5,1[11CTop[5;1H[34h[?25h[?25l[11;108H2[5;2H[34h[?25h[?25l[11;108H3[5;3H[34h[?25h[?25l[11;108H4[5;4H[34h[?25h[?25l[11;108H5[5;5H[34h[?25h[?25l[36m<[0m[33mli[0m[36m>[0m[35m<%=[0m link_to message.id, message [35m%>[0m : [35m<%=[0m message.title [35m%>[0m [1m[37m[41m>[0m [35m<%=[0m message.content [35m%>[0m[36m</[0m[33mli[0m[36m>[0m[11;108H96[5;96H[34h[?25h[11;1H[K[?25l[11;106H5,95[10CTop[5;95H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/index.html.erb" 17L, 1059C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ vim app/views/messages/show.html.erb
+[?1049h[?1h=[1;11r[34l[34h[?25h[23m[24m[0m[H[J[?25l[11;1H"app/views/messages/show.html.erb" [noeol] 8L, 386C[1;1H[36m<[0m[33mh1[0m[36m>[0m[35mid = <%=[0m [36m@message[0m.id [35m%> のメッセージ詳細ページ[0m[36m</[0m[33mh1[0m[36m>
+
+<[0m[33mp[0m[36m>[0m[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m
+
+[35m<%=[0m link_to [35m'[0m[31m一覧に戻る[0m[35m'[0m, messages_path [35m%>
+<%=[0m link_to [35m'[0m[31mこのメッセージを編集する[0m[35m'[0m, edit_message_path([36m@message[0m) [35m%>
+<%=[0m link_to [35m'[0m[31mこのメッセージを削除する[0m[35m'[0m, [36m@message[0m, [31mmethod[0m: [31m:delete[0m, [31mdata[0m: { [31mconfirm[0m: [35m'[0m[31m本当に削除してよろしいですか？[0m[35m'[0m } [35m%>
+<%#[0m[34m [0m[35m%>[0m
+[1m[34m~                                                                                                                          [10;1H~                                                                                                                          [0m[11;106H1,1[11CAll[1;1H[34h[?25h[?25l[11;106H2,0-1[2;1H[34h[?25h[?25l[11;106H3,1  [3;1H[34h[?25h[?25l[11;106H4,0-1[4;1H[34h[?25h[?25l[11;106H5,1  [5;1H[34h[?25h[?25l[11;106H6[6;1H[34h[?25h[?25l[11;106H7[7;1H[34h[?25h[?25l[11;106H8[8;1H[34h[?25h[?25l[11;106H7[7;1H[34h[?25h[?25l[11;106H6[6;1H[34h[?25h[?25l[11;106H7[7;1H[34h[?25h[?25l[11;106H8[8;1H[34h[?25h[?25l[11;106H7[7;1H[34h[?25h[?25l[11;106H6[6;1H[34h[?25h[?25l[11;106H5[5;1H[34h[?25h[?25l[11;106H4,0-1[4;1H[34h[?25h[?25l[11;106H3,1  [3;1H[34h[?25h[?25l[11;106H2,0-1[2;1H[34h[?25h[?25l[11;106H3,1  [3;1H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;13H[K[11;106H3,1[11CTop[3;10r[3;1H[L[1;11r[11;106H[K[11;106H3,1[11CAll[3;1H[34h[?25h[?25l[36m<[0m[33mp[0m[36m>[0mタイトル: [35m<%=[0m [36m@message[0m.title [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H43-39[3;39H[34h[?25h[11;1H[K[?25l[11;106H3,42-38[7CAll[3;38H[34h[?25h[?25l[11;106H4,30   [4;30H[34h[?25h[?25l[11;108H29[4;29H[34h[?25h[?25l[11;109H8[4;28H[34h[?25h[?25l[11;109H7[4;27H[34h[?25h[?25l[11;109H6[4;26H[34h[?25h[?25l[11;109H5[4;25H[34h[?25h[?25l[11;109H4[4;24H[34h[?25h[?25l[11;109H3[4;23H[34h[?25h[?25l[11;109H2[4;22H[34h[?25h[?25l[11;109H1[4;21H[34h[?25h[?25l[11;109H0[4;20H[34h[?25h[?25l[11;108H19[4;19H[34h[?25h[?25l[11;109H8[4;18H[34h[?25h[?25l[11;109H7[4;17H[34h[?25h[?25l[11;109H6[4;16H[34h[?25h[?25l[11;109H5[4;15H[34h[?25h[?25l[11;109H4[4;14H[34h[?25h[?25l[11;109H3[4;13H[34h[?25h[?25l[11;109H2[4;12H[34h[?25h[?25l[11;109H1[4;11H[34h[?25h[?25l[11;109H0[4;10H[34h[?25h[?25l[11;108H9 [4;9H[34h[?25h[?25l[11;108H8[4;8H[34h[?25h[?25l[11;108H7[4;7H[34h[?25h[?25l[11;108H6[4;6H[34h[?25h[?25l[11;108H5[4;5H[34h[?25h[?25l[11;108H4[4;4H[34h[?25h[?25l[11;1H[1m-- INSERT --[0m[11;106H[K[11;106H4,4[11CAll[4;4H[34h[?25h[?25lm[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H5[4;5H[34h[?25h[?25le[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H6[4;6H[34h[?25h[?25l\[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H7[4;7H[34h[?25h[?25l\[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H8[4;8H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;34H[K[11;108H7[4;7H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;33H[K[11;108H6[4;6H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;32H[K[11;108H5[4;5H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;31H[K[11;108H4[4;4H[34h[?25h[?25lメッセージ[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H19-14[4;14H[34h[?25h[?25l：[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H22-16[4;16H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;41H[K[11;108H19-14[4;14H[34h[?25h[?25l：[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;108H22-16[4;16H[34h[?25h[?25l[34m<80><80>[0m[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;109H6-24[4;24H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;47H[K[11;109H4-20[4;20H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;43H[K[11;109H2-16[4;16H[34h[?25h[?25l [35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[11;109H3-17[4;17H[34h[?25h[?25l[35m<%=[0m [36m@message[0m.content [35m%>[0m[36m</[0m[33mp[0m[36m>[0m[4;43H[K[11;109H2-16[4;16H[34h[?25h[11;1H[K[4;14H[?25l[11;106H4,19-14[7CAll[4;14H[34h[?25h[?25l[11;106H[K[11;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l"app/views/messages/show.html.erb" 9L, 448C written
+[?1l>[34h[?25h[?1049l[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ gigt[K[K[K[Kgi tstatus
+bash: gi: command not found
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/controllers/messages_controller.rb[m
+	[31mmodified:   app/models/message.rb[m
+	[31mmodified:   app/views/messages/_form.html.erb[m
+	[31mmodified:   app/views/messages/index.html.erb[m
+	[31mmodified:   app/views/messages/show.html.erb[m
+	[31mmodified:   db/schema.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mdb/migrate/20170421022134_add_title_to_messages.rb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git diff
+[?1h=[1mdiff --git a/app/controllers/messages_controller.rb b/app/controllers/messages_controller.rb[m[m
+[1mindex 05c88be..0136697 100644[m[m
+[1m--- a/app/controllers/messages_controller.rb[m[m
+[1m+++ b/app/controllers/messages_controller.rb[m[m
+[36m@@ -61,7 +61,7 @@[m [mclass MessagesController < ApplicationController[m[m
+ [m[m
+   # Strong Parameter[m[m
+   def message_params[m[m
+[31m-    params.require(:message).permit(:content)[m[m
+[32m+[m[32m    params.require(:message).permit(:content, :title)[m[m
+:[K[K   end[m[m
+:[K[K   #new から create へ送られてきたフォームの内容は params[:message] に入っています。しかし、 params[:message] をそのまま使[m
+:[K[K用するのは、セキュリティの観点から推奨されません。直接 params[:message] を扱うのではなく、Strong Parameter（ストロングパラ[m
+:[K[Kメータ）というフィルタを使用します。[m[m
+:[K[K [m[m
+:[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git add .
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ git commit -m "add column"
+[master e00fc42] add column
+ 7 files changed, 17 insertions(+), 7 deletions(-)
+ create mode 100644 db/migrate/20170421022134_add_title_to_messages.rb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ #kadi[K[K[K[K kadi[Kai2
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/message-board2[00m (master) $ cd ..
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ ls
+170419.log        17042001.log      17042002.log  [0m[01;34mkadai-tasklist[0m/  [01;34mmessage-board2[0m/  tory
+17042001.history  17042002.history  17042003.log  [01;34mmessage-board[0m/   tatus
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails[00m $ cd kadai-tasklist/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ ls
+17042101.log  Gemfile.lock  Rakefile  [0m[01;34mbin[0m/     config.ru  [01;34mlib[0m/  [01;34mpublic[0m/  [01;34mtmp[0m/
+Gemfile       README.md     [01;34mapp[0m/      [01;34mconfig[0m/  [01;34mdb[0m/        [01;34mlog[0m/  [01;34mtest[0m/    [01;34mvendor[0m/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git log
+[?1h=[33mcommit 71e39ddf75a81acf51926cc2885f921f5b5db99c[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Fri Apr 21 00:53:25 2017 +0000[m
+[m
+    kansei[m
+[m
+[33mcommit af07e862f4446eef4d012e1a768d831f68c582ad[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Thu Apr 20 06:57:04 2017 +0000[m
+[m
+:[K[K    init Kadai-TaskList Project[m
+:[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/
