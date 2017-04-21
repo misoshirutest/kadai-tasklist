@@ -855,4 +855,226 @@ Date:   Thu Apr 20 06:57:04 2017 +0000[m
 [m
 :[K[K    init Kadai-TaskList Project[m
 :[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
-[01;32mtekek33[00m:[01;34m~/
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ [K[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/controllers/tasks_controller.rb[m
+	[31mmodified:   app/views/tasks/edit.html.erb[m
+	[31mmodified:   app/views/tasks/new.html.erb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m17042101.log[m
+	[31mapp/views/tasks/_form.html.erb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git add .
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ gi t[K[Kt commit -m "DRY"
+[master 68eb5b7] DRY
+ 5 files changed, 877 insertions(+), 19 deletions(-)
+ create mode 100644 17042101.log
+ create mode 100644 app/views/tasks/_form.html.erb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git commit-[K --aem[K[Kmend -m "DRY"
+[master e23dbca] DRY
+ Date: Fri Apr 21 04:06:41 2017 +0000
+ 5 files changed, 877 insertions(+), 19 deletions(-)
+ create mode 100644 17042101.log
+ create mode 100644 app/views/tasks/_form.html.erb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git log
+[?1h=[33mcommit e23dbca76bfc3005050044c1b140d9557c11e432[m[m
+Author: aaaaa <aaaaa@aaaa.com>[m
+Date:   Fri Apr 21 04:06:41 2017 +0000[m
+[m
+:[K[K    DRY[m
+:[K[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ gi t[K[Kt log o[K--oneline
+[?1h=[33me23dbca[m DRY[m
+[33m71e39dd[m kansei[m
+[33maf07e86[m init Kadai-TaskList Project[m
+[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ [K[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ gi t[K[K[K[Kgit ts[K[Kstatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/models/task.rb[m
+	[31mmodified:   app/views/tasks/_form.html.erb[m
+	[31mmodified:   app/views/tasks/edit.html.erb[m
+	[31mmodified:   app/views/tasks/new.html.erb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git add .
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   app/models/task.rb[m
+	[32mmodified:   app/views/tasks/_form.html.erb[m
+	[32mmodified:   app/views/tasks/edit.html.erb[m
+	[32mmodified:   app/views/tasks/new.html.erb[m
+
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git commit -m "validation"
+[master 0b192d8] validation
+ 4 files changed, 15 insertions(+), 4 deletions(-)
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ rails g migration AddStatusToTasks title:string[1P:string[1P:string[1P:string[1P:string[1P:strings:stringt:stringa:stringt:stringu:strings:string
+Running via Spring preloader in process 5090
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170421042220_add_status_to_tasks.rb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ rails db:migrate
+== 20170421042220 AddStatusToTasks: migrating =================================
+-- add_column(:tasks, :status, :string)
+   -> 0.0427s
+== 20170421042220 AddStatusToTasks: migrated (0.0429s) ========================
+
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ [K[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   17042101.log[m
+	[31mmodified:   app/controllers/tasks_controller.rb[m
+	[31mmodified:   app/views/tasks/_form.html.erb[m
+	[31mmodified:   app/views/tasks/index.html.erb[m
+	[31mmodified:   app/views/tasks/show.html.erb[m
+	[31mmodified:   db/schema.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mdb/migrate/20170421042220_add_status_to_tasks.rb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git f[Kdiff
+[?1h=[1mdiff --git a/17042101.log b/17042101.log[m[m
+[1mindex 2ea6cf7..cd11632 100644[m[m
+[1m--- a/17042101.log[m[m
+[1m+++ b/17042101.log[m[m
+[36m@@ -855,4 +855,75 @@[m [mDate:   Thu Apr 20 06:57:04 2017 +0000[m[m[m
+ [m[m[m
+ :[3m^M[23m    init Kadai-TaskList Project[m[m[m
+ :[3m^M^G^M[23m[3m(END)[23m[3m^M^G^M[23m[3m(END)[23m[3m^M^G^M[23m[3m(END)[23m[3m^M^G^M[23m[3m(END)[23m[3m^M[23m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ [m[m
+[31m-[01;32mtekek33[00m:[01;34m~/[m[m
+\ No newline at end of file[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ [3m^M[23m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git status[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mOn branch master[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mYour branch is up-to-date with 'origin/master'.[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mChanges not staged for commit:[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m  (use "git checkout -- <file>..." to discard changes in working directory)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   app/controllers/tasks_controller.rb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   app/views/tasks/edit.html.erb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   app/views/tasks/new.html.erb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mUntracked files:[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31m17042101.log[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mapp/views/tasks/_form.html.erb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git add .[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git commit -m "DRY"[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[master 68eb5b7] DRY[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m 5 files changed, 877 insertions(+), 19 deletions(-)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m create mode 100644 17042101.log[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m create mode 100644 app/views/tasks/_form.html.erb[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git commit --amend -m "DRY"[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[master e23dbca] DRY[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m Date: Fri Apr 21 04:06:41 2017 +0000[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m 5 files changed, 877 insertions(+), 19 deletions(-)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m create mode 100644 17042101.log[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m create mode 100644 app/views/tasks/_form.html.erb[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git log[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[3m^M[23m[33mcommit e23dbca76bfc3005050044c1b140d9557c11e432[m[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mAuthor: aaaaa <aaaaa@aaaa.com>[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mDate:   Fri Apr 21 04:06:41 2017 +0000[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m:[3m^M[23m    DRY[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m:[3m^M[23m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git log --oneline[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[3m^M[23m[33me23dbca[m DRY[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[33m71e39dd[m kansei[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[33maf07e86[m init Kadai-TaskList Project[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[3m^M[23m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ [3m^M[23m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ [3m^G[23mgit status[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mOn branch master[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mYour branch is ahead of 'origin/master' by 1 commit.[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m  (use "git push" to publish your local commits)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mChanges not staged for commit:[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m  (use "git checkout -- <file>..." to discard changes in working directory)[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   app/models/task.rb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   app/views/tasks/_form.html.erb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   app/views/tasks/edit.html.erb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   app/views/tasks/new.html.erb[m[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $[m[41m [3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git add .[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git status[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mOn branch master[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32mYour branch is ahead of 'origin/master' by 1 commit.[m[41m[3m^M[23m[m[m
+:[K[K[32m+[m[32m  (use "git push" to[m[m
+:[K[K\ No newline at end of file[m[m
+:[K[K[1mdiff --git a/app/controllers/tasks_controller.rb b/app/controllers/tasks_controller.rb[m[m
+:[K[K[1mindex 9cc6062..854412c 100644[m[m
+:[K[K[1m--- a/app/controllers/tasks_controller.rb[m[m
+:[K[K[1m+++ b/app/controllers/tasks_controller.rb[m[m
+:[K[K[36m@@ -53,7 +53,7 @@[m [mbefore_action :set_task, only: [:show, :edit, :update, :destroy][m[m
+:[K[K [m[m
+:[K[K   # Strong Parameter[m[m
+:[K[K   def task_params[m[m
+:[K[K[31m-    params.require(:task).permit(:content)[m[m
+:[K[K[32m+[m
