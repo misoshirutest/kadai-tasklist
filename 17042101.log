@@ -1077,4 +1077,89 @@ no changes added to commit (use "git add" and/or "git commit -a")
 :[K[K   # Strong Parameter[m[m
 :[K[K   def task_params[m[m
 :[K[K[31m-    params.require(:task).permit(:content)[m[m
-:[K[K[32m+[m
+:[K[K[32m+[m[32m    params.require(:task).permit(:status)[m[m
+:[K[K   end[m[m
+:[K[K [m[m
+:[K[K   [m[m
+:[K[K[1mdiff --git a/app/views/tasks/_form.html.erb b/app/views/tasks/_form.html.erb[m[m
+:[K[K[1mindex 410fc73..73501cb 100644[m[m
+:[K[K[1m--- a/app/views/tasks/_form.html.erb[m[m
+:[K[K[1m+++ b/app/views/tasks/_form.html.erb[m[m
+:[K[K[36m@@ -9,8 +9,11 @@[m[m
+:[K[K     </div>[m[m
+:[K[K   <% end %>[m[m
+:[K[K [m[m
+:[K[K[32m+[m[32m  <%= f.label :status, 'ステータス' %>[m[m
+:[K[K[32m+[m[32m  <%= f.text_field :status %>[m[m
+:[K[K[32m+[m[m
+:[K[K   <%= f.label :content, 'タスク' %>[m[m
+:[K[K   <%= f.text_field :content %>[m[m
+:[K[K[31m-[m[m
+:[K[K[32m+[m[41m  [m[m
+:[K[K   <%= f.submit '投稿' %>[m[m
+:[K[K <% end %>[m[m
+:[K[K[1mdiff --git a/app/views/tasks/index.html.erb b/app/views/tasks/index.html.erb[m[m
+:[K[K[1mindex 4305cec..9ae27d9 100644[m[m
+:[K[K[HM[32m+[m[32m  <%= f.label :status, 'ステータス' %>[m[m
+[11;1H[K:[K[K[HM [m[m
+[11;1H[K:[K[K[HM   <% end %>[m[m
+[11;1H[K:[K[K[HM     </div>[m[m
+[11;1H[K:[K[K[HM[36m@@ -9,8 +9,11 @@[m[m
+[11;1H[K:[K[K[HM[1m+++ b/app/views/tasks/_form.html.erb[m[m
+[11;1H[K:[K[K[HM[1m--- a/app/views/tasks/_form.html.erb[m[m
+[11;1H[K:[K[K[HM[1mindex 410fc73..73501cb 100644[m[m
+[11;1H[K:[K[K[HM[1mdiff --git a/app/views/tasks/_form.html.erb b/app/views/tasks/_form.html.erb[m[m
+[11;1H[K:[K[K[HM   [m[m
+[11;1H[K:[K[K[HM [m[m
+[11;1H[K:[K[K[32m+[m[32m  <%= f.label :status, 'ステータス' %>[m[m
+:[K[K[32m+[m[32m  <%= f.text_field :status %>[m[m
+:[K[K[32m+[m[m
+:[K[K   <%= f.label :content, 'タスク' %>[m[m
+:[K[K   <%= f.text_field :content %>[m[m
+:[K[K[31m-[m[m
+:[K[K [K::[Kqq[K[?1l>[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git add .
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git commit -m "kadai2[K[K[K[K[K[Kadd cou[Kou[K[K[Kolmn[K[Kumn"
+[master 39a5403] add column
+ 7 files changed, 238 insertions(+), 6 deletions(-)
+ create mode 100644 db/migrate/20170421042220_add_status_to_tasks.rb
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ git push origin master
+Username for 'https://github.com': misoshirutest
+Password for 'https://misoshirutest@github.com': 
+
+Counting objects: 36, done.
+Delta compression using up to 8 threads.
+Compressing objects:   2% (1/36)   Compressing objects:   5% (2/36)   Compressing objects:   8% (3/36)   Compressing objects:  11% (4/36)   Compressing objects:  13% (5/36)   Compressing objects:  16% (6/36)   Compressing objects:  19% (7/36)   Compressing objects:  22% (8/36)   Compressing objects:  25% (9/36)   Compressing objects:  27% (10/36)   Compressing objects:  30% (11/36)   Compressing objects:  33% (12/36)   Compressing objects:  36% (13/36)   Compressing objects:  38% (14/36)   Compressing objects:  41% (15/36)   Compressing objects:  44% (16/36)   Compressing objects:  47% (17/36)   Compressing objects:  50% (18/36)   Compressing objects:  52% (19/36)   Compressing objects:  55% (20/36)   Compressing objects:  58% (21/36)   Compressing objects:  61% (22/36)   Compressing objects:  63% (23/36)   Compressing objects:  66% (24/36)   Compressing objects:  69% (25/36)   Compressing objects:  72% (26/36)   Compressing objects:  75% (27/36)   Compressing objects:  77% (28/36)   Compressing objects:  80% (29/36)   Compressing objects:  83% (30/36)   Compressing objects:  86% (31/36)   Compressing objects:  88% (32/36)   Compressing objects:  91% (33/36)   Compressing objects:  94% (34/36)   Compressing objects:  97% (35/36)   Compressing objects: 100% (36/36)   Compressing objects: 100% (36/36), done.
+Writing objects:   2% (1/36)   Writing objects:   5% (2/36)   Writing objects:   8% (3/36)   Writing objects:  11% (4/36)   Writing objects:  13% (5/36)   Writing objects:  16% (6/36)   Writing objects:  19% (7/36)   Writing objects:  25% (9/36)   Writing objects:  27% (10/36)   Writing objects:  30% (11/36)   Writing objects:  33% (12/36)   Writing objects:  36% (13/36)   Writing objects:  38% (14/36)   Writing objects:  44% (16/36)   Writing objects:  47% (17/36)   Writing objects:  52% (19/36)   Writing objects:  55% (20/36)   Writing objects:  58% (21/36)   Writing objects:  61% (22/36)   Writing objects:  63% (23/36)   Writing objects:  66% (24/36)   Writing objects:  69% (25/36)   Writing objects:  72% (26/36)   Writing objects:  75% (27/36)   Writing objects:  77% (28/36)   Writing objects:  80% (29/36)   Writing objects:  83% (30/36)   Writing objects:  86% (31/36)   Writing objects:  88% (32/36)   Writing objects:  91% (33/36)   Writing objects:  94% (34/36)   Writing objects:  97% (35/36)   Writing objects: 100% (36/36)   Writing objects: 100% (36/36), 16.22 KiB | 0 bytes/s, done.
+Total 36 (delta 19), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/19)   [Kremote: Resolving deltas:   5% (1/19)   [Kremote: Resolving deltas:  10% (2/19)   [Kremote: Resolving deltas:  15% (3/19)   [Kremote: Resolving deltas:  21% (4/19)   [Kremote: Resolving deltas:  26% (5/19)   [Kremote: Resolving deltas:  42% (8/19)   [Kremote: Resolving deltas:  57% (11/19)   [Kremote: Resolving deltas:  68% (13/19)   [Kremote: Resolving deltas:  78% (15/19)   [Kremote: Resolving deltas:  84% (16/19)   [Kremote: Resolving deltas:  89% (17/19)   [Kremote: Resolving deltas:  94% (18/19)   [Kremote: Resolving deltas: 100% (19/19)   [Kremote: Resolving deltas: 100% (19/19), completed with 8 local objects.[K
+To https://github.com/misoshirutest/kadai-tasklist.git
+   71e39dd..39a5403  master -> master
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ # finish kadai2
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ 
+[01;32mtekek33[00m:[01;34m~/workspace/09_rails/kadai-tasklist[00m (master) $ exit
+exit
+
+Script done on Fri 21 Apr 2017 06:21:06 AM UTC
