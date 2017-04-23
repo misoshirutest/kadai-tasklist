@@ -54,7 +54,7 @@ before_action :set_task, only: [:show, :edit, :update, :destroy]
   # Strong Parameter
   def task_params
     p params
-    params.require(:task).permit(:status)
+    params.require(:task).permit(:status, :content)
   end
 
   
