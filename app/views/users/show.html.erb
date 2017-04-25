@@ -1,5 +1,6 @@
 <div class="row">
   <aside class="col-xs-4">
+    <%# パネルオブジェクト http://bootstrap3.cyberlab.info/components/panels.html %>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title"><%= @user.name %></h3>
@@ -11,9 +12,11 @@
   </aside>
   <div class="col-xs-8">
     <ul class="nav nav-tabs nav-justified">
-      <li><a href="#">Microposts</a></li>
+      <li class="<%= 'active' if current_page?(user_path(@user)) %>"><%= link_to user_path(@user) do %>Microposts <span class="badge"><%= @count_tasks %></span><% end %></li>
+      <%# Bootstrap のタブでは class="active" を付与することで、このタブが今開いているページだとわかりやすくなります %>
       <li><a href="#">Followings</a></li>
       <li><a href="#">Followers</a></li>
     </ul>
+    <%= render 'tasks/tasks', tasks: @tasks, user: @user %>
   </div>
 </div>

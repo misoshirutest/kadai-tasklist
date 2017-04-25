@@ -1,5 +1,6 @@
 class TasksController < ApplicationController
-before_action :set_task, only: [:show, :edit, :update, :destroy]
+  before_action :require_user_logged_in
+  before_action :set_task, only: [:show, :edit, :update, :destroy]
 
   def index
     @tasks = Task.order(created_at: :desc).page(params[:page]).per(3)
@@ -14,13 +15,14 @@ before_action :set_task, only: [:show, :edit, :update, :destroy]
 
   def create
     @task = Task.new(task_params)
+    @task.user_id = current_user.id
 
     if @task.save
       flash[:success] = 'Task が正常に投稿されました'
-      redirect_to @task
+      redirect_to root_url
     else
       flash.now[:danger] = 'Task が投稿されませんでした'
-      render :new
+      render 'toppages/index'
     end
   end
 
@@ -42,7 +44,8 @@ before_action :set_task, only: [:show, :edit, :update, :destroy]
     @task.destroy
 
     flash[:success] = 'Task は正常に削除されました'
-    redirect_to tasks_url
+    redirect_back(fallback_location: root_path)
+    # redirect_back は、このアクションが実行されたページに戻るメソッドです。例えば、toppages#index で削除ボタンが押されれば、toppages#index に戻します。オプションとして指定した fallback_location: root_path は、戻るべきページがない場合には root_path に戻る仕様です
   end
 
   private
