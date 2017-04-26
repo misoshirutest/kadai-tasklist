@@ -5,15 +5,7 @@
       https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css
   %>
     <%= form_for(task) do |f| %>
-      <% if task.errors.any? %>
-        <div class="alert alert-warning">
-          <ul>
-            <% task.errors.full_messages.each do |task| %>
-              <li><%= task %></li>
-            <% end %>
-          </ul>
-        </div>
-      <% end %>
+      <%= render 'layouts/error_messages', model: f.object %>
     
       <div class="form-group">
         <%# form-groupをつけたdivのデフォルトは margin-bottom: 15 のようだ %>

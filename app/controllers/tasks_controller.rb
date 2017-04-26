@@ -17,7 +17,6 @@ class TasksController < ApplicationController
   def create
     @task = Task.new(task_params)
     @task.user_id = current_user.id
-    #@tasks = Task.all.page(params[:page]).per(3)
     @tasks = Task.order(created_at: :desc).page(params[:page]).per(3)
 
     if @task.save

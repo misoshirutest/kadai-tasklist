@@ -2,6 +2,7 @@
   <div class="row">
     <aside class="col-md-4">
       <%= form_for(@task) do |f| %>
+        <%= render 'layouts/error_messages', model: f.object %>
         <div class="form-group">
           <%= f.label :status, 'ステータス' %>
           <%= f.text_field :status, class: 'form-control' %>
